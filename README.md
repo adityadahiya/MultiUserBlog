@@ -12,4 +12,4 @@ In cloud sdk shell navigate to the project3 folder and run the following command
 python "C:\Users\<username>\AppData\Local\Google\Cloud SDK\google-cloud-sdk\bin\dev_appserver.py" .
 Access the project at http://localhost:8080/
 
-=> You can access the blog at public url: https://blog-163719.appspot.com
+=> You can access the blog at public url: https://tcs-project-174009.appspot.com
