@@ -1,0 +1,220 @@
+a {
+  color:#000;
+}
+
+a:focus,
+a:hover {
+  text-decoration: none;
+  color: #f1f1f1;
+}
+
+.navbar {
+  border-radius: 0;
+  margin-bottom: 0;
+  background-color:#000;
+  color: white;
+  border: none;
+}
+
+.txt {
+  color: #000
+}
+
+.content {
+  color: #4c4c4c;
+  margin: 0;
+  padding: 8px 0;
+  position: relative;
+  transition: background 0.5s ease 0s;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+
+}
+
+td, th {
+    text-align: left;
+    padding: 6px;
+
+}
+
+h1 {
+  font-size: 64px;
+  font-color: white;
+}
+
+h2 {
+  font-family: ;
+  font-size: 32px;
+  font-color: white;
+}
+
+p {
+  font-family: Macondo;
+  font-size: 16px;
+  font-color: white;
+}
+
+a:link {
+    color: #000;
+}
+
+/* visited link */
+a:visited {
+    color: #000;
+}
+
+/* mouse over link */
+a:hover {
+    color: #000;
+}
+
+/* selected link */
+a:active {
+    color: #000;
+}
+
+* { margin: 0; padding: 0; }
+
+html { overflow-y: scroll; }
+
+.clear {
+  clear: both;
+}
+
+.floatLeft {
+  float: left;
+}
+
+.floatRight {
+  float: right;
+}
+
+body {
+  color:#eee;
+}
+
+#background {
+  background: url(../images/background.png) repeat 5% 5%;
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  z-index: 100;
+}
+
+#midground {
+  background: url(../images/midground.png) repeat 20% 20%;
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  z-index: 100;
+}
+
+#foreground {
+  background: url(../images/foreground.png) repeat 90% 110%;
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  z-index: 200;
+}
+
+#sidebar {
+  width: 160px;
+  float: left;
+  margin-right: 20px;
+}
+
+#main-content {
+  width: 540px;
+  float: right;
+}
+
+#page-wrap {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  z-index: 300;
+  background: rgba(0,0,0,0.7);
+  overflow: hidden;
+  padding: 30px 50px;
+
+  }
+
+h1 {
+  font: 42px Georgia, Serif;
+  margin: 0 0 10px 0;
+  color: #eee;
+}
+
+h2 {
+  font: 20px Georgia, Serif;
+  margin: 0 0 1px 0;
+  color: #eee;
+}
+
+h2.bump {
+  text-indent: 200px;
+}
+
+p {
+  margin: 0 0 15px 0;
+  color: #999;
+}
+
+code {
+  color: white;
+  margin: -1px 0 0 0;
+  font: 10px Courier;
+}
+
+p.thinParagraph {
+  width: 340px;
+}
+
+blockquote {
+  font: italic 15px/20px Georgia, Serif;
+  width: 180px;
+}
+
+blockquote p {
+  color: white;
+}
+
+blockquote.right {
+  float: right;
+}
+
+ul.meta {
+  width: 180px;
+  margin: 0 10px 0 0;
+  list-style: none;
+  float: left;
+}
+
+ul.meta li {
+  text-align: right;
+}
+
+ul.meta li.author {
+  font: normal small-caps normal 15px Georgia, Serif;
+  margin: 0 0 2px 0;
+  letter-spacing: 2px;
+}
+
+ul.meta li.date {
+  margin: 0 0 10px 0;
+}
+
+ul.meta li.comments {
+  font-style: italic;
+}
+
+.article {
+  float: right;
+  width: 340px;
+}
+
+ol {
+  margin: 20px 0;
+  list-style: inside decimal;
+}

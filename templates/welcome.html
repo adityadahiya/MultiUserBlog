@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% block content %}
+<br>
+<center>
+<h1>Welcome, {{username}}!</h1>
+</center>
+<div class="w3-container" >
+<br><br>
+{% for blog in blogs %}
+
+<a href ="/post/{{blog.key().id()}}">
+  <div class="w3-card-4" style="width:80%">
+    <header class="w3-container w3-light-grey">
+      <h3><b>{{blog.user.name}} </b></h3>
+<h4>{{blog.last_modified}}</h4>
+
+    </header>
+    <div class="w3-container">
+      <p><h4><b>{{blog.subject}}</b></h4></p>
+      <hr>
+
+      <p><h4>{{blog.content[:35]}}.......</p></h4></p><br>
+    </div>
+   </a>
+</div>
+<br><br>
+
+    {% endfor %}
+</div>
+{% endblock %}

@@ -1,0 +1,76 @@
+body {
+   background-image: url("/images/bg.jpg");
+}
+a {
+  color:#000;
+}
+
+a:focus,
+a:hover {
+  text-decoration: none;
+  color: #f1f1f1;
+}
+
+.navbar {
+  border-radius: 0;
+  margin-bottom: 0;
+  background-color:#000;
+  color: #fff;
+  border: none;
+}
+
+.content {
+  color: #4c4c4c;
+  margin: 0;
+  padding: 8px 0;
+  position: relative;
+  transition: background 0.5s ease 0s;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    text-align: left;
+    padding: 6px;
+    color: #000;
+}
+
+h1 {
+  font-size: 64px;
+  color: #000;
+}
+
+h2 {
+  font-family: Macondo;
+  font-size: 32px;
+  font-color: #000;
+}
+
+p {
+  font-family: Macondo;
+  font-size: 16px;
+
+}
+
+a:link {
+    color: black;
+}
+
+/* visited link */
+a:visited {
+    color: black;
+}
+
+/* mouse over link */
+a:hover {
+    color: black;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
